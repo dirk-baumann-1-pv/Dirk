@@ -1,185 +1,201 @@
-# PV- und Autarkieprojekt – Altbau mit Photovoltaik
+# 🏠 Altbau von 1905 klimaneutral und weitgehend autark machen
 
-> Öffentlich dokumentiertes Praxisprojekt zur Entwicklung eines möglichst autarken Energiesystems.
+> Öffentlich dokumentiertes Praxisprojekt: Ein über 120 Jahre alter Altbau wird Schritt für Schritt energieeffizienter, klimafreundlicher und möglichst weitgehend autark.
 
-## Ziel des Projekts
+## 🎯 Das Projekt auf einen Blick
 
-Dieses Repository dokumentiert den schrittweisen Umbau eines Altbaus zu einem **möglichst klimaneutralen, hochgradig autarken Energiesystem**.
+Wie kann ein Wohnhaus aus dem Jahr **1905** Schritt für Schritt in Richtung einer weitgehend eigenen Energieversorgung entwickelt werden?
 
-Im Mittelpunkt stehen:
+Dieses Repository dokumentiert den tatsächlichen Weg – mit **PV-Anlage, Batteriespeicher, Warmwasser-Wärmepumpe, zusätzlichen PV-Flächen und realen Messdaten**.
 
-- Photovoltaik und Eigenverbrauch
-- Batteriespeicher
-- Warmwasserbereitung mit einer Brauchwarmwasser-Wärmepumpe
-- zusätzliche PV-Flächen an Ost- und Fassadenseiten
-- Reduzierung und später möglichst vollständiger Ersatz von Erdgas
-- möglichst geringe Netzabhängigkeit
-- nachvollziehbare Auswertung von Erzeugung, Verbrauch, Überschuss und Autarkie
+**Vorher → heute → nächste Ausbaustufe → langfristiges Ziel**
 
-Das Projekt wird bewusst **ohne Programmierpflicht** geführt. GitHub dient als Projekttagebuch, Datenarchiv und Planungsdokumentation.
+## 📊 VORHER → HEUTE → ZIEL
 
-### Datenschutz
+| Bereich | Ausgangssituation | Heute | Langfristiges Ziel |
+|---|---:|---:|---:|
+| 🏠 Gebäude | Baujahr 1905 | Baujahr 1905 | Altbau weiter optimieren |
+| ☀️ PV | keine | **9,45 kWp** | zusätzliche Flächen |
+| 🔋 Speicher | keine | **ca. 12 kWh** | bedarfsgerecht |
+| 🔥 Gasverbrauch | **ca. 32.000 kWh/a** | **ca. 21.260 kWh/a** | weiter reduzieren |
+| ⚡ Stromkosten | **ca. 200 €/Monat** | **ca. 65 €/Monat** | möglichst gering |
+| 💶 Einspeisevergütung | – | **ca. 41–42 €/Monat** | Eigenverbrauch erhöhen |
+| 🚿 Warmwasser | Gas | BWWP bestellt | möglichst PV-gestützt |
+| 🧱 Fassaden-PV | – | in Planung | zusätzliche Erzeugung |
+| 🌱 Autarkie | gering | deutlich erhöht | **weitgehend autark** |
 
-Das Repository ist öffentlich. Deshalb werden **keine genaue Wohnadresse, Kontaktdaten, Zugangsdaten, Kontonummern oder sonstige nicht für das Energieprojekt benötigte persönliche Angaben** veröffentlicht.
-
-Technische Daten und Messwerte werden dort dokumentiert, wo sie für das Verständnis des Projekts nützlich sind. Finanzwerte können für eine öffentliche Darstellung gerundet bzw. als Planungswerte angegeben werden.
-
----
-
-## Ausgangssituation
+## 🏡 Ausgangssituation
 
 | Merkmal | Stand |
 |---|---|
 | Gebäudetyp | Altbau-Einfamilienhaus |
-| Baujahr | 1905 |
-| Wohnfläche | ca. 120 m² |
-| Dachdämmung | ca. 10 cm Glaswolle |
+| Baujahr | **1905** |
+| Wohnfläche | ca. **120 m²** |
+| Dachdämmung | ca. **10 cm Glaswolle** |
 | Fenster | Doppelverglasung |
 | Heizkörper | in Wandnischen |
-| Vorlauftemperatur | bisher bis ca. 65 °C |
-| Heizkessel | Erdgas, Baujahr 1991 |
-| Keller | teilweise vorhanden |
-| Besonderheit | ehemaliger unbeheizter Stall-/Anbaubereich, Doppelwand |
+| Vorlauftemperatur | bisher bis ca. **65 °C** |
+| Heizkessel | Erdgas, Baujahr **1991** |
 
 Der konkrete Standort wird aus Datenschutzgründen nicht veröffentlicht.
 
----
+## ☀️ 1. Photovoltaik
 
-## Bestehende PV-Anlage
+Die PV-Anlage bildet das Fundament des Projekts.
 
-| Komponente | Daten |
-|---|---|
-| PV-Leistung | 9,45 kWp |
-| Ausrichtung | Süd |
-| Dachneigung | ca. 30° |
-| Module | 450 W, bifazial, Glas-Glas |
-| Hersteller | IBC Solar |
-| Wechselrichter | IBC Inverter 12 AS-H31 |
-| Speicher | ca. 12 kWh |
-| Notstromreserve | derzeit ca. 20 % |
-| Betriebsbeginn | 19.11.2025 |
-| Smart Meter | installiert am 26.08.2026 |
+- **9,45 kWp**
+- Südausrichtung
+- ca. 30° Dachneigung
+- 450-W-Module
+- bifaziale Glas-Glas-Module
+- IBC Solar
+- IBC Inverter 12 AS-H31
+- Batteriespeicher ca. 12 kWh
+- derzeit ca. 20 % Notstromreserve
+- Betriebsbeginn: **19.11.2025**
 
----
+## 🔋 2. Strom speichern und selbst nutzen
 
-## Bisherige Entwicklung
+**☀️ PV-Erzeugung → ⚡ direkter Eigenverbrauch → 🔋 Batteriespeicher → 🚿 weitere Verbraucher → Netz**
 
-Die bestehende PV-Anlage hat bereits zu einer deutlichen Verringerung des Netzbezugs und der laufenden Stromkosten geführt.
+Überschüssiger Strom soll möglichst sinnvoll im eigenen Haus genutzt werden.
 
-Die Mess- und Abrechnungsdaten werden fortlaufend dokumentiert. Wichtig ist dabei die Trennung zwischen:
+## 💶 3. Was hat sich bereits verändert?
 
-1. PV-Erzeugung
-2. Hausverbrauch
-3. Eigenverbrauch
-4. Netzbezug
-5. Einspeisung
-6. Autarkiegrad
-7. Überschussstrom
+Die monatlichen Stromkosten sind von ungefähr
 
-Dadurch sollen spätere Entscheidungen auf realen Messwerten und nicht nur auf theoretischen Ertragsprognosen beruhen.
+**200 € → 65 €**
 
----
+gesunken.
 
-## Geplanter Ausbau
+Zusätzlich werden derzeit ungefähr
 
-### Priorität 1 – Warmwasser
+**41–42 € Einspeisevergütung pro Monat**
 
-**Stiebel Eltron WWK-I 200 Plus**
+erzielt.
 
-Bestellt am 08.09.2026, vorgesehene Umsetzung Ende 2026.
+## 🚿 4. Warmwasser mit Solarstrom
 
-Ziel:
+Bestellt wurde eine:
 
-- Erdgasverbrauch für Warmwasser deutlich reduzieren
+### Stiebel Eltron WWK-I 200 Plus
+
+**Bestellung: 08.09.2026**  
+**Vorgesehene Umsetzung: Ende 2026**
+
+Ziele:
+
+- Erdgasverbrauch für Warmwasser reduzieren
 - vorhandene PV-Überschüsse besser nutzen
 - Eigenverbrauch erhöhen
-- PV-Strom gezielt in Wärme umwandeln
+- Solarstrom direkt in Wärme umwandeln
 
-### Priorität 2 – Ostfassade
+## 🧱 5. Zusätzliche PV an den Fassaden
 
-Geplanter Ausbau ab 2027.
+### 🌅 Ostfassade
 
-Hauptziel ist nicht maximale Sommerproduktion, sondern eine bessere Erzeugung in den Übergangsmonaten und im Winterhalbjahr.
+Geplant ist ein Ausbau mit mehreren kleineren Modulen. Ziel sind zusätzliche Erzeugung am Vormittag und eine bessere Tages- und Saisonverteilung.
 
-### Weitere Ausbauoptionen
+### ☀️ Südseite / 🌇 Westseite
 
-- Süd-/Westfassade
-- zusätzliche kleinere Module mit leichterer Montage
-- Solarzaun bzw. zusätzliche Ost-/West-Flächen
-- weitere Speicher nur dann, wenn zusätzliche PV-Flächen dadurch nicht sinnvoller wären
-- Prüfung einer kleinen Windkraftlösung für die Wintergrundlast
-- perspektivisch Nutzung einer Panasonic Multi-Split-Klimaanlage (MSKA) zur Kühlung und zur PV-gestützten Wärmeversorgung in den Übergangszeiten
+Weitere PV-Flächen werden geprüft.
 
----
+## 🌅 6. Solarzaun
 
-## Strategisches Ziel
+Als weitere mögliche Ausbaustufe wird ein Solarzaun mit Ost-Ausrichtung untersucht, um die Stromproduktion stärker in die Morgenstunden zu verschieben.
 
-Die Reihenfolge des Projekts lautet grundsätzlich:
+## ❄️ 7. Die größte Herausforderung: der Winter
 
-**PV-Erzeugung erhöhen → Eigenverbrauch erhöhen → Gasverbrauch reduzieren → Winterlücke verkleinern → Netzbezug minimieren**
+Die eigentliche Herausforderung ist die Winterenergieversorgung. Dann treffen niedrige PV-Erträge, wenige Sonnenstunden und höherer Wärmebedarf zusammen.
 
-Dabei soll möglichst viel mit realen Messwerten gesteuert werden.
+Untersucht werden unter anderem:
 
-Ein besonderes Augenmerk liegt auf der saisonalen Bilanz:
+- Optimierung der bestehenden Heizung
+- Wärmepumpenlösungen
+- Pelletlösung
+- Pufferspeicher
+- zusätzliche PV-Flächen
+- Batteriespeicher
+- weitere Verbrauchsreduzierung
 
-- **März bis Oktober:** möglichst hohe Deckung des Strombedarfs aus eigener Erzeugung
-- **November und Februar:** Netzbezug möglichst klein halten
-- **Dezember und Januar:** verbleibende Winterlücke systematisch erfassen und durch zusätzliche Erzeugung bzw. geeignete Speicher-/Wärmelösungen reduzieren
+## 📈 8. Reale Messdaten statt Theorie
 
----
+Dokumentiert werden unter anderem:
 
-## Messdaten
+- ☀️ PV-Erzeugung
+- ⚡ Hausverbrauch
+- 🔌 Netzbezug
+- ↗️ Einspeisung
+- 🔋 Batterieladung und -entladung
+- 📊 Eigenverbrauchsquote
+- 📈 Autarkiegrad
+- 🔥 Gasverbrauch
+- 💶 Stromkosten und Einspeiseerlöse
 
-Die Daten werden nicht nur gesammelt, sondern über die Jahre vergleichbar gemacht.
+## 💰 9. Wirtschaftlichkeit
 
-Geplante Kennzahlen:
-
-- Jahreserzeugung
-- Jahresverbrauch
-- Eigenverbrauchsquote
-- Autarkiegrad
-- Netzbezug
-- Einspeisung
-- PV-Überschuss
-- Stromkosten
-- Einspeiseerlöse
-- vermiedener Gasverbrauch
-- vermiedene Energiekosten
-- Investitionen
-- Amortisationsentwicklung
-
----
-
-## Projektprinzip
+Berücksichtigt werden Investitionskosten, Förderungen, eingesparte Stromkosten, Einspeisevergütung, eingesparte fossile Energie, laufende Kosten und die Amortisationsentwicklung.
 
 > **Erst messen, dann investieren.**
 
-Neue Anlagenteile sollen möglichst einen klaren Zweck erfüllen:
+## 🗺️ 10. Der Weg zur weitgehenden Autarkie
 
-1. mehr erneuerbare Erzeugung,
-2. weniger Netzbezug,
-3. weniger Gas,
-4. höhere Eigenversorgung,
-5. oder bessere Nutzung bereits vorhandener Überschüsse.
+```
+🏠 ALTBAU VON 1905
+        │
+        ▼
+   ☀️ PV-Anlage
+        │
+        ▼
+   🔋 Batteriespeicher
+        │
+        ▼
+  ⚡ mehr Eigenverbrauch
+        │
+        ├──────────► 🚿 Warmwasser-Wärmepumpe
+        ├──────────► 🧱 Fassaden-PV
+        ├──────────► 🌅 Solarzaun
+        └──────────► weitere Energieoptimierung
+                         │
+                         ▼
+                  🔌 weniger Netzbezug
+                         │
+                         ▼
+                    🔥 weniger Gas
+                         │
+                         ▼
+                🌱 höhere Energieautarkie
+```
 
----
-
-## Status
+## 📌 Aktueller Projektstand
 
 **Stand: 25.09.2026**
 
 - ✅ Süd-PV in Betrieb
 - ✅ Batteriespeicher in Betrieb
 - ✅ Smart Meter installiert
-- ✅ Brauchwarmwasser-Wärmepumpe bestellt
+- ✅ Stromkosten deutlich reduziert
+- ✅ Gasverbrauch gegenüber früher deutlich reduziert
+- ✅ Warmwasser-Wärmepumpe bestellt
 - 🟡 Ostfassade in Planung
 - 🟡 weitere Fassadenflächen in Prüfung
+- 🟡 Solarzaun in Prüfung
 - 🟡 Winterenergiekonzept in Planung
-- 🟡 langfristige Netzunabhängigkeit als Ziel
+- 🟡 langfristige weitgehende Netzunabhängigkeit als Ziel
 
----
+## 🚀 Nächste Schritte
 
-## Dokumentstruktur
+- [ ] Warmwasser-Wärmepumpe installieren
+- [ ] Verbrauchsdaten vor/nach Installation vergleichen
+- [ ] Ostfassade planen
+- [ ] zusätzliche PV-Flächen prüfen
+- [ ] Solarzaun untersuchen
+- [ ] Winterenergieversorgung optimieren
+- [ ] Autarkiegrad weiter erhöhen
+- [ ] tatsächliche Einsparungen dokumentieren
+- [ ] Jahresbilanzen veröffentlichen
+
+## 📚 Dokumentation
 
 - `README.md` – Übersicht und aktueller Projektstand
 - `projekt/01-haus-und-ausgangslage.md` – Gebäude und Ausgangssituation
@@ -189,4 +205,22 @@ Neue Anlagenteile sollen möglichst einen klaren Zweck erfüllen:
 - `daten/auswertung-2025-2026.md` – saisonale und finanzielle Erstauswertung
 - `planung/winterluecke.md` – Betrachtung der Wintermonate
 - `planung/finanzen.md` – Investitionen und Wirtschaftlichkeit
-- `PUBLIC-DATA.md` – Hinweise zum Datenschutz bei der öffentlichen Dokumentation
+- `PUBLIC-DATA.md` – Datenschutz und öffentliche Dokumentation
+
+## 🌱 Vom Altbau zum Energieprojekt
+
+Ein Neubau kann von Anfang an energetisch geplant werden.
+
+Dieses Projekt stellt eine andere Frage:
+
+> **Was kann man mit einem Haus machen, das bereits seit 1905 steht?**
+
+Die Antwort soll durch **echte Messwerte, tatsächliche Investitionen und die langfristige Entwicklung des Hauses** entstehen.
+
+### 1905 → 2026 → Zukunft
+
+**Altbau → Photovoltaik → Speicherung → Eigenverbrauch → Warmwasser-Wärmepumpe → zusätzliche PV-Flächen → Optimierung der Wärmeversorgung → 🏡 möglichst klimaneutral und weitgehend autark**
+
+---
+
+*Dieses Projekt wird laufend mit neuen Messwerten, Erfahrungen und technischen Lösungen aktualisiert.*
