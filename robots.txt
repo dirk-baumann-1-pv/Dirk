@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dirk-baumann-1-pv.github.io/Dirk/sitemap.xml
