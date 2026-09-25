@@ -115,13 +115,18 @@ Eine solche Prüfung ist sinnvoll, bevor daraus Wirkungsgrad oder Speicherrendit
 
 ## Finanzielle Projektwirkung
 
-Aus den bisher eingetragenen Monatswerten ergeben sich:
+Die aktuelle Haushaltsstromrechnung ist gegenüber der früheren Situation deutlich gesunken:
 
-- dokumentierte Einsparung: **777,33 €**
-- dokumentierte Einspeiseerlöse: **354,95 €**
-- zusammen dokumentierter finanzieller Effekt: **1.132,28 €**
+- früher: ca. **200 € pro Monat**
+- aktuell: ca. **65 € pro Monat**
+- Reduzierung: ca. **135 € pro Monat**
+- einfache jährliche Reduzierung der Stromrechnung: ca. **1.620 €**
 
-Diese Summe ist eine Addition der eingetragenen Werte und noch keine vollständige Wirtschaftlichkeitsrechnung. Für eine spätere Rendite- oder Amortisationsberechnung müssen insbesondere Investitionskosten, Strompreis, Einspeisevergütung und zeitlicher Bezugsrahmen eindeutig festgelegt werden.
+Zusätzlich werden aktuell ungefähr **41 € pro Monat** bzw. **492 € pro Jahr** eingespeist.
+
+Unter einer einfachen Cashflow-Betrachtung verbleiben damit aktuell ungefähr **24 € Stromkosten pro Monat** bzw. rund **288 € pro Jahr** nach Verrechnung der Einspeisevergütung.
+
+Diese Werte sind von den oben dokumentierten monatlichen Einsparungs- und Einspeisewerten zu unterscheiden. Sie stammen aus der aktuellen laufenden Stromkosten-/Vergütungsbetrachtung und werden für die langfristige Wirtschaftlichkeitsrechnung separat weitergeführt.
 
 ---
 
