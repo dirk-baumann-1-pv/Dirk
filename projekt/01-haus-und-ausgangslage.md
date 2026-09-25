@@ -2,7 +2,7 @@
 
 ## Gebäude
 
-Das Haus wurde 1905 errichtet und verfügt über rund 120 m² Wohnfläche.
+Das Projekt betrifft einen Altbau aus dem Jahr 1905 mit rund 120 m² Wohnfläche. Der genaue Standort wird aus Datenschutzgründen nicht veröffentlicht.
 
 ### Gebäudehülle
 
@@ -13,7 +13,7 @@ Das Haus wurde 1905 errichtet und verfügt über rund 120 m² Wohnfläche.
 - teilweise unterkellert
 - ehemaliger Stall/Anbau unbeheizt, Doppelwand
 
-Die vorhandene Gebäudehülle ist deshalb ein wichtiger Bestandteil der Gesamtbetrachtung. Zusätzliche Energieerzeugung allein ist nicht ausreichend; Wärmeverluste und der tatsächliche Wärmebedarf müssen parallel betrachtet werden.
+Die vorhandene Gebäudehülle ist ein wichtiger Bestandteil der Gesamtbetrachtung. Zusätzliche Energieerzeugung allein ist nicht ausreichend; Wärmeverluste und der tatsächliche Wärmebedarf müssen parallel betrachtet werden.
 
 ---
 
@@ -43,3 +43,23 @@ Besonders wichtig ist die saisonale Betrachtung:
 - Übergangszeiten sollen möglichst weitgehend aus eigener Erzeugung versorgt werden.
 - Die Wintermonate Dezember und Januar bilden die wesentliche Restlücke.
 
+---
+
+## Veröffentlichungsgrundsatz
+
+Die öffentliche Dokumentation konzentriert sich auf:
+
+- Technik
+- Messwerte
+- Planungsentscheidungen
+- Energieflüsse
+- Investitionsgrößen
+- Erfahrungen aus dem Betrieb
+
+Nicht veröffentlicht werden:
+
+- genaue Adresse
+- persönliche Kontaktdaten
+- Zugangsdaten
+- Bank- oder Vertragsdaten
+- persönliche Gesundheits- oder Familiendaten
