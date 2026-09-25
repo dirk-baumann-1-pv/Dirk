@@ -185,7 +185,8 @@ Neue Anlagenteile sollen möglichst einen klaren Zweck erfüllen:
 - `projekt/01-haus-und-ausgangslage.md` – Gebäude und Ausgangssituation
 - `projekt/02-pv-bestand.md` – bestehende PV-Anlage
 - `projekt/03-ausbauplan.md` – geplante Erweiterungen
-- `daten/2025-2026-pv-bilanz.md` – bisherige Mess- und Bilanzdaten
+- `daten/2025-2026-pv-bilanz.md` – Monatsdaten 2025/2026
+- `daten/auswertung-2025-2026.md` – saisonale und finanzielle Erstauswertung
 - `planung/winterluecke.md` – Betrachtung der Wintermonate
 - `planung/finanzen.md` – Investitionen und Wirtschaftlichkeit
 - `PUBLIC-DATA.md` – Hinweise zum Datenschutz bei der öffentlichen Dokumentation
