@@ -1,4 +1,6 @@
-# PV- und Autarkieprojekt Haus Lauenförde
+# PV- und Autarkieprojekt – Altbau mit Photovoltaik
+
+> Öffentlich dokumentiertes Praxisprojekt zur Entwicklung eines möglichst autarken Energiesystems.
 
 ## Ziel des Projekts
 
@@ -11,10 +13,16 @@ Im Mittelpunkt stehen:
 - Warmwasserbereitung mit einer Brauchwarmwasser-Wärmepumpe
 - zusätzliche PV-Flächen an Ost- und Fassadenseiten
 - Reduzierung und später möglichst vollständiger Ersatz von Erdgas
-- möglichst geringe Netzabhängigkeit, langfristig mit dem Ziel einer weitgehenden bzw. saisonalen Netzunabhängigkeit
+- möglichst geringe Netzabhängigkeit
 - nachvollziehbare Auswertung von Erzeugung, Verbrauch, Überschuss und Autarkie
 
-Das Projekt wird bewusst **ohne Programmierpflicht** geführt. GitHub dient vor allem als dauerhaftes Projekttagebuch, Datenarchiv und Planungsdokumentation.
+Das Projekt wird bewusst **ohne Programmierpflicht** geführt. GitHub dient als Projekttagebuch, Datenarchiv und Planungsdokumentation.
+
+### Datenschutz
+
+Das Repository ist öffentlich. Deshalb werden **keine genaue Wohnadresse, Kontaktdaten, Zugangsdaten, Kontonummern oder sonstige nicht für das Energieprojekt benötigte persönliche Angaben** veröffentlicht.
+
+Technische Daten und Messwerte werden dort dokumentiert, wo sie für das Verständnis des Projekts nützlich sind. Finanzwerte können für eine öffentliche Darstellung gerundet bzw. als Planungswerte angegeben werden.
 
 ---
 
@@ -22,7 +30,8 @@ Das Projekt wird bewusst **ohne Programmierpflicht** geführt. GitHub dient vor 
 
 | Merkmal | Stand |
 |---|---|
-| Gebäude | Altbau, Baujahr 1905 |
+| Gebäudetyp | Altbau-Einfamilienhaus |
+| Baujahr | 1905 |
 | Wohnfläche | ca. 120 m² |
 | Dachdämmung | ca. 10 cm Glaswolle |
 | Fenster | Doppelverglasung |
@@ -30,7 +39,9 @@ Das Projekt wird bewusst **ohne Programmierpflicht** geführt. GitHub dient vor 
 | Vorlauftemperatur | bisher bis ca. 65 °C |
 | Heizkessel | Erdgas, Baujahr 1991 |
 | Keller | teilweise vorhanden |
-| Besonderheit | ehemaliger Stall/Anbau, unbeheizt, Doppelwand |
+| Besonderheit | ehemaliger unbeheizter Stall-/Anbaubereich, Doppelwand |
+
+Der konkrete Standort wird aus Datenschutzgründen nicht veröffentlicht.
 
 ---
 
@@ -55,7 +66,7 @@ Das Projekt wird bewusst **ohne Programmierpflicht** geführt. GitHub dient vor 
 
 Die bestehende PV-Anlage hat bereits zu einer deutlichen Verringerung des Netzbezugs und der laufenden Stromkosten geführt.
 
-Die Mess- und Abrechnungsdaten werden künftig hier fortlaufend dokumentiert. Wichtig ist dabei die Trennung zwischen:
+Die Mess- und Abrechnungsdaten werden fortlaufend dokumentiert. Wichtig ist dabei die Trennung zwischen:
 
 1. PV-Erzeugung
 2. Hausverbrauch
@@ -111,7 +122,7 @@ Dabei soll möglichst viel mit realen Messwerten gesteuert werden.
 
 Ein besonderes Augenmerk liegt auf der saisonalen Bilanz:
 
-- **März bis Oktober:** möglichst vollständige Deckung des Strombedarfs aus eigener Erzeugung
+- **März bis Oktober:** möglichst hohe Deckung des Strombedarfs aus eigener Erzeugung
 - **November und Februar:** Netzbezug möglichst klein halten
 - **Dezember und Januar:** verbleibende Winterlücke systematisch erfassen und durch zusätzliche Erzeugung bzw. geeignete Speicher-/Wärmelösungen reduzieren
 
@@ -175,7 +186,6 @@ Neue Anlagenteile sollen möglichst einen klaren Zweck erfüllen:
 - `projekt/02-pv-bestand.md` – bestehende PV-Anlage
 - `projekt/03-ausbauplan.md` – geplante Erweiterungen
 - `daten/2025-2026-pv-bilanz.md` – bisherige Mess- und Bilanzdaten
-- `daten/verbrauch.md` – Strom- und Energieverbrauch
 - `planung/winterluecke.md` – Betrachtung der Wintermonate
 - `planung/finanzen.md` – Investitionen und Wirtschaftlichkeit
-
+- `PUBLIC-DATA.md` – Hinweise zum Datenschutz bei der öffentlichen Dokumentation
