@@ -6,7 +6,7 @@
 
 Wie kann ein Wohnhaus aus dem Jahr **1905** Schritt für Schritt in Richtung einer weitgehend eigenen Energieversorgung entwickelt werden?
 
-Dieses Repository dokumentiert den tatsächlichen Weg – mit **PV-Anlage, Batteriespeicher, Warmwasser-Wärmepumpe, zusätzlichen PV-Flächen und realen Messdaten**.
+Dieses Repository dokumentiert den tatsächlichen Weg – mit **PV-Anlage, Batteriespeicher, Warmwasser-Wärmepumpe, zusätzlicher Gebäudedämmung, zusätzlichen PV-Flächen und realen Messdaten**.
 
 **Vorher → heute → nächste Ausbaustufe → langfristiges Ziel**
 
@@ -15,6 +15,8 @@ Dieses Repository dokumentiert den tatsächlichen Weg – mit **PV-Anlage, Batte
 | Bereich | Ausgangssituation | Heute | Langfristiges Ziel |
 |---|---:|---:|---:|
 | 🏠 Gebäude | Baujahr 1905 | Baujahr 1905 | Altbau weiter optimieren |
+| 🧱 Wanddämmung | – | **12 cm** | Bestand weiter nutzen |
+| 🏠 Dachdämmung | – | **10 cm Glaswolle** | Bestand weiter nutzen |
 | ☀️ PV | keine | **9,45 kWp** | zusätzliche Flächen |
 | 🔋 Speicher | keine | **ca. 12 kWh** | bedarfsgerecht |
 | 🔥 Gasverbrauch | **ca. 32.000 kWh/a** | **ca. 21.260 kWh/a** | weiter reduzieren |
@@ -31,6 +33,7 @@ Dieses Repository dokumentiert den tatsächlichen Weg – mit **PV-Anlage, Batte
 | Gebäudetyp | Altbau-Einfamilienhaus |
 | Baujahr | **1905** |
 | Wohnfläche | ca. **120 m²** |
+| Wanddämmung | ca. **12 cm** |
 | Dachdämmung | ca. **10 cm Glaswolle** |
 | Fenster | Doppelverglasung |
 | Heizkörper | in Wandnischen |
@@ -54,27 +57,25 @@ Die PV-Anlage bildet das Fundament des Projekts.
 - derzeit ca. 20 % Notstromreserve
 - Betriebsbeginn: **19.11.2025**
 
-## 🔋 2. Strom speichern und selbst nutzen
+## 🧱 2. Gebäudedämmung
+
+Der Altbau verfügt bereits über eine **12 cm starke Dämmung der Außenwände** sowie etwa **10 cm Glaswolldämmung im Dachbereich**.
+
+Die vorhandene Dämmung ist ein wichtiger Bestandteil des Gesamtkonzepts, weil sie den Wärmebedarf des Gebäudes reduziert und damit auch die Anforderungen an zukünftige Wärmeerzeuger beeinflusst.
+
+## 🔋 3. Strom speichern und selbst nutzen
 
 **☀️ PV-Erzeugung → ⚡ direkter Eigenverbrauch → 🔋 Batteriespeicher → 🚿 weitere Verbraucher → Netz**
 
 Überschüssiger Strom soll möglichst sinnvoll im eigenen Haus genutzt werden.
 
-## 💶 3. Was hat sich bereits verändert?
+## 💶 4. Was hat sich bereits verändert?
 
-Die monatlichen Stromkosten sind von ungefähr
+Die monatlichen Stromkosten sind von ungefähr **200 € → 65 €** gesunken.
 
-**200 € → 65 €**
+Zusätzlich werden derzeit ungefähr **41–42 € Einspeisevergütung pro Monat** erzielt.
 
-gesunken.
-
-Zusätzlich werden derzeit ungefähr
-
-**41–42 € Einspeisevergütung pro Monat**
-
-erzielt.
-
-## 🚿 4. Warmwasser mit Solarstrom
+## 🚿 5. Warmwasser mit Solarstrom
 
 Bestellt wurde eine:
 
@@ -90,7 +91,7 @@ Ziele:
 - Eigenverbrauch erhöhen
 - Solarstrom direkt in Wärme umwandeln
 
-## 🧱 5. Zusätzliche PV an den Fassaden
+## 🧱 6. Zusätzliche PV an den Fassaden
 
 ### 🌅 Ostfassade
 
@@ -100,11 +101,11 @@ Geplant ist ein Ausbau mit mehreren kleineren Modulen. Ziel sind zusätzliche Er
 
 Weitere PV-Flächen werden geprüft.
 
-## 🌅 6. Solarzaun
+## 🌅 7. Solarzaun
 
 Als weitere mögliche Ausbaustufe wird ein Solarzaun mit Ost-Ausrichtung untersucht, um die Stromproduktion stärker in die Morgenstunden zu verschieben.
 
-## ❄️ 7. Die größte Herausforderung: der Winter
+## ❄️ 8. Die größte Herausforderung: der Winter
 
 Die eigentliche Herausforderung ist die Winterenergieversorgung. Dann treffen niedrige PV-Erträge, wenige Sonnenstunden und höherer Wärmebedarf zusammen.
 
@@ -118,7 +119,7 @@ Untersucht werden unter anderem:
 - Batteriespeicher
 - weitere Verbrauchsreduzierung
 
-## 📈 8. Reale Messdaten statt Theorie
+## 📈 9. Reale Messdaten statt Theorie
 
 Dokumentiert werden unter anderem:
 
@@ -132,16 +133,18 @@ Dokumentiert werden unter anderem:
 - 🔥 Gasverbrauch
 - 💶 Stromkosten und Einspeiseerlöse
 
-## 💰 9. Wirtschaftlichkeit
+## 💰 10. Wirtschaftlichkeit
 
 Berücksichtigt werden Investitionskosten, Förderungen, eingesparte Stromkosten, Einspeisevergütung, eingesparte fossile Energie, laufende Kosten und die Amortisationsentwicklung.
 
 > **Erst messen, dann investieren.**
 
-## 🗺️ 10. Der Weg zur weitgehenden Autarkie
+## 🗺️ 11. Der Weg zur weitgehenden Autarkie
 
 ```
 🏠 ALTBAU VON 1905
+        │
+        ├──────────► 🧱 12 cm Wanddämmung
         │
         ▼
    ☀️ PV-Anlage
@@ -171,6 +174,8 @@ Berücksichtigt werden Investitionskosten, Förderungen, eingesparte Stromkosten
 
 **Stand: 25.09.2026**
 
+- ✅ 12 cm Wanddämmung vorhanden
+- ✅ ca. 10 cm Dachdämmung vorhanden
 - ✅ Süd-PV in Betrieb
 - ✅ Batteriespeicher in Betrieb
 - ✅ Smart Meter installiert
@@ -219,7 +224,7 @@ Die Antwort soll durch **echte Messwerte, tatsächliche Investitionen und die la
 
 ### 1905 → 2026 → Zukunft
 
-**Altbau → Photovoltaik → Speicherung → Eigenverbrauch → Warmwasser-Wärmepumpe → zusätzliche PV-Flächen → Optimierung der Wärmeversorgung → 🏡 möglichst klimaneutral und weitgehend autark**
+**Altbau → Dämmung → Photovoltaik → Speicherung → Eigenverbrauch → Warmwasser-Wärmepumpe → zusätzliche PV-Flächen → Optimierung der Wärmeversorgung → 🏡 möglichst klimaneutral und weitgehend autark**
 
 ---
 
