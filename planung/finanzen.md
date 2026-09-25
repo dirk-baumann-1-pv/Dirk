@@ -1,22 +1,26 @@
 # Wirtschaftlichkeit und Investitionen
 
+## Grundsatz
+
+Die wirtschaftliche Betrachtung soll transparent, nachvollziehbar und langfristig vergleichbar sein.
+
+Da das Repository öffentlich ist, werden **keine persönlichen Kontodaten oder privaten Vermögensverhältnisse** veröffentlicht. Einzelne Investitionswerte werden nur dann exakt genannt, wenn dies für die technische Projektbewertung sinnvoll ist.
+
 ## Bereits getätigte Investition
 
-Die bestehende PV-Anlage kostete:
+Für die bestehende PV-Anlage wird öffentlich mit einer Investitionsgröße von **rund 20.000 €** gearbeitet.
 
-**20.091,40 €**
-
-Dieser Betrag wird als Ausgangspunkt für die langfristige Wirtschaftlichkeitsrechnung verwendet.
+Der exakte private Rechnungsbetrag wird nicht als notwendige Projektinformation behandelt.
 
 ## Laufende Effekte
 
 Dokumentierte Größen aus dem bisherigen Projekt:
 
-- Stromkosten aktuell deutlich niedriger als vor der PV
-- Einspeiseerlöse monatlich vorhanden
-- PV-Gesamtnutzen inklusive Einspeisung wurde bisher mit ungefähr 4.800 €/Jahr angesetzt
+- Stromkosten deutlich niedriger als vor der PV
+- Einspeiseerlöse vorhanden
+- der bisher angesetzte Gesamtnutzen der PV liegt in der Größenordnung von mehreren tausend Euro pro Jahr
 
-Diese Größen werden später durch die vollständigen Abrechnungen ersetzt bzw. präzisiert.
+Diese Größen werden später durch vollständige Abrechnungs- und Messdaten präzisiert.
 
 ## Weitere Investitionen
 
@@ -24,7 +28,7 @@ Diese Größen werden später durch die vollständigen Abrechnungen ersetzt bzw.
 
 Die Stiebel Eltron WWK-I 200 Plus wurde am 08.09.2026 bestellt.
 
-Planungsgröße des Projekts:
+Öffentliche Planungsgröße:
 
 **ca. 5.500 €**
 
